@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(#303b37, #1a1f1d);
+  color: #e1eeeb;
+  min-height: 100vh;
+}
+
+img {
+  object-fit: contain;
+  background-color: transparent;
+  
+}
+
+.main-wrapper {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+  
+.header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.header img {
+  width: 5rem;
+  height: 5rem;
+}
+ 
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.importer {
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #307e6c, #2b996d);
+}
+.result {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+ .result-headers {
+  font-size: 0.9rem;
+  color: #83e6c0;
+}
+
+.result-headers, .row {
+  display: flex; 
+}
+
+.col {
+  flex: 1;   
+}
+
+.line-break {
+  border-bottom: 2px solid white;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.CSVImporter_FileSelector {
+  border-width: 2px;
+}
+.CSVImporter_FileSelector, .CSVImporter_ImporterFrame {
+  opacity: 0.9;
+}
+
+.error-notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.error-notification img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.error-notification h2 {
+font-size: 2.5em;
+font-weight: bold;
+}
+
+.error-notification p {
+  font-size: 1.2rem;
+}
+
+  
+
